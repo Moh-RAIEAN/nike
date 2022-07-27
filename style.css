@@ -3,3 +3,88 @@ nav img{
     width: 100% ;
     height: auto;
 }
+img.shoe-one{
+    top:57% !important;
+    left: 62% !important;
+    transform: translate(-50%,-50%) rotateZ(5deg);
+    width: 95% ;
+    height: auto ;
+
+}
+img.shoe-two,img.shoe-three{
+    transform: translate(-50%,-50%) rotateZ(5deg) scale(1.2);
+
+}
+img.shoe-two{
+    left: 52% !important;
+    top: 54% !important;
+}
+img.shoe-three{
+    left: 65% !important;
+    top: 62% !important;
+}
+.circle-one,.circle-two,.circle-three{
+    transition: .2s;
+}
+.circle-one{
+    filter: blur(0) hue-rotate(235deg) drop-shadow(0 0 4px rgba(37, 37, 37,.5));
+
+}
+.circle-two{
+    filter: blur(0) brightness(2.8) drop-shadow(0 0 4px rgba(37, 37, 37,.5));
+
+}
+.circle-three{
+    filter: blur(0) hue-rotate(214deg) drop-shadow(0 0 4px rgba(37, 37, 37,.5));
+}
+.img-container:hover .circle-one{
+    filter:blur(5px) hue-rotate(235deg) drop-shadow(0 0 4px rgba(37, 37, 37,.5));
+}
+.img-container:hover .circle-two{
+    filter: blur(5px) brightness(2.8) drop-shadow(0 0 4px rgba(37, 37, 37,.5));
+}
+.img-container:hover .circle-three{
+    filter: blur(5px) hue-rotate(214deg) drop-shadow(0 0 4px rgba(37, 37, 37,.5));
+}
+.text-purple{
+    color: #494079;
+}
+.text-blue{
+    color: #5E81D9;
+}
+.text-cream{
+    color: #FFFFD5;
+    text-shadow: 3px 5px 10px rgba(37, 37, 37,.5);
+}
+.btn-border-purple{
+    border:2px solid #494079;
+    background-color: #494079;
+    color: white;
+}
+.btn-border-purple:hover{
+    border:2px solid #494079;
+    background-color: transparent;
+    color: #494079;
+}
+.btn-border-cream{
+    border:2px solid #FFFFD5;
+    background-color: #FFFFD5;
+    color: rgba(37, 37, 37,.5);
+}
+.btn-border-cream:hover{
+    border:2px solid #FFFFD5;
+    background-color: transparent;
+    color: #FFFFD5;
+    text-shadow: 2px 3px 5px rgb(37, 37, 37);
+    box-shadow: 0 2px 5px rgb(37, 37, 37);
+}
+.btn-border-primary{
+    border:2px solid #5E81D9;
+    background-color: #5E81D9;
+    color: white;
+}
+.btn-border-primary:hover{
+    border:2px solid #5E81D9;
+    background-color: transparent;
+    color: #5E81D9;
+}
